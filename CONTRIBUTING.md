@@ -1,3 +1,3 @@
-# Contribution to <project-name>
+# Contribution to :project-name
 
 TBD
