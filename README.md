@@ -1,8 +1,6 @@
 # :project-name
 
-This module is a playground for GraphQl queries and mutations. It is not intended for production use.
-
-The module bundles the graphiql tool which is licensed under the MIT license. See [graphiql/LICENSE](graphiql/LICENSE) for more information.
+:description
 
 ---
 
@@ -19,19 +17,6 @@ The module bundles the graphiql tool which is licensed under the MIT license. Se
     ```
 
 ## Configuration
-
-The GraphQL playground is automatically available in developer mode.
-In the production mode it is disabled by default. To enable it in production mode, run:
-
-```bash
-bin/magento config:set --lock-env dev/graphiql/enabled_in_production 1
-```
- 
-In the developer mode the configuration can be set in the adminhtml configuration under `Stores > Configuration > Advanced > Developer > GraphQL Playground`.
-
-## Usage
-
-Open the GraphQL playground in your browser: `https://<your-base-url>/graphiql`
 
 
 ## Changelog
